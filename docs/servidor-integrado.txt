@@ -1,0 +1,11 @@
+php -S localhost:8000
+
+//Para servir una carpeta en particular
+php -S localhost:8000 -t public
+
+//Ten en cuenta que el comando "php" tiene que estar en el PATH. 
+//Es decir, debes tener en el PATH de tu sistema la ruta donde está el ejecutable de PHP. 
+//Si no es tu caso, tendrías que escribir la ruta completa a donde se encuentre. 
+//Imagina que estás en Windows y tienes instalado PHP con Xampp
+
+C:/xampp/php/php -S localhost:8080
